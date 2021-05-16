@@ -10,7 +10,6 @@ Los ingredientes que tiene Ema tienen que ser variables al inicio del programa q
 faciles de editar
 */
 console.clear()
-console.log('hola')
 var huevos = 3;
 var chocolate = 1;
 var harina = 0.5;
