@@ -1,6 +1,6 @@
 # Hoop
 ## Capitulo 1 (Ejercicios)
-### 1)
+### 1) Las galletitas de Ema
 ```javascript
 console.clear()
 var huevos = 3;
@@ -11,7 +11,7 @@ if ((huevos == 3) && ( chocolate == 1) && (harina == 0.5) && (azucar_cucharadas 
     console.count('Tenes todos los ingredientes! ');
 }
 ```
-### 2)
+### 2) La tienda de ropa
 ```javascript
 var numero_ranom = function (min, max) {
     return Math.floor(Math.random() * (max - min + 1 ) + min);
@@ -32,7 +32,7 @@ if (precio_final>4000) {
     console.log("Precio excedido");
 }
 ```
-### 3)
+### 3) Dia de paga
 ```javascript
 var numero_ranom = function (pow) {
 	return Math.floor(Math.random() * pow);
