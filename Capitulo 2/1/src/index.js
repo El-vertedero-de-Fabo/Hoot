@@ -6,5 +6,4 @@ for (var i = 0; i < limite; i++){
     if ((numero % 2) == 0){
         console.log(numero);
     }
-    
 }

@@ -10,5 +10,4 @@ for (var i = 0; i < limite; i++){
     numero_1 = numero_2;
     numero_2 = fibonacci;
     console.log(fibonacci);
-    
 }
