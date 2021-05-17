@@ -1,7 +1,7 @@
 # Hoop
 ## Capitulo 1 (Ejercicios)
 ### 1)
-```
+```javascript
 console.clear()
 var huevos = 3;
 var chocolate = 1;
@@ -12,7 +12,7 @@ if ((huevos == 3) && ( chocolate == 1) && (harina == 0.5) && (azucar_cucharadas 
 }
 ```
 ### 2)
-```
+```javascript
 var numero_ranom = function (min, max) {
     return Math.floor(Math.random() * (max - min + 1 ) + min);
 };
@@ -33,7 +33,7 @@ if (precio_final>4000) {
 }
 ```
 ### 3)
-```
+```javascript
 var numero_ranom = function (pow) {
 	return Math.floor(Math.random() * pow);
 };
