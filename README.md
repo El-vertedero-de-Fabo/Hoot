@@ -64,3 +64,16 @@ console.log("Repartir a Sueldos:",Repartir_Sueldos);
 console.log("Sueldo_Repartidos:",Sueldo_Repartidos);
 console.log("Ganancias_Finales:", gananciasFinales);
 ```
+## Capitulo 2 (Ejercicios)
+### 1) Pares
+```javascript
+```
+### 2) Contador
+```javascript
+```
+### 3) Contador 2: La venganza del contador
+```javascript
+```
+### 4) La secuencia de Fibonacci
+```javascript
+```
