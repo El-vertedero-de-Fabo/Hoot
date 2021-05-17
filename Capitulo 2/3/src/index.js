@@ -1,19 +1,19 @@
-/*
-Emanuel quiere cocinar galletitas y quiere un programa que lo ayude a saber que debe
-comprar y en caso que cuente con todos los ingredientes, informar que puede cocinar las
-galletas. La receta pide los siguientes ingredientes
-3 huevos
-1 barra de chocolate
-0.5 kilos de harina
-5 cucharadas de azucar
-Los ingredientes que tiene Ema tienen que ser variables al inicio del programa que sean
-faciles de editar
-*/
 console.clear()
-var huevos = 3;
-var chocolate = 1;
-var harina = 0.5;
-var azucar_cucharadas = 5;
-if ((huevos == 3) && ( chocolate == 1) && (harina == 0.5) && (azucar_cucharadas == 5)) {
-    console.count('Tenes todos los ingredientes! ');
+var limite = 10;
+var inicio = 0;
+var num_pares = 0;
+var final = 3; //La cantidad de numeros pares que tiene como limite
+var multiplos_3 = 0;
+var suma_total = 0;
+while((inicio < limite) && (num_pares<final)){
+    inicio = inicio + 1;
+    if ((inicio % 2) == 0) {
+        num_pares = num_pares + 1;
+    }
+    if ((inicio % 3) == 0){
+        multiplos_3 = multiplos_3 + 1;
+    }
+    suma_total = suma_total + inicio;
 }
+console.log("La cantidad de multiplos de 3 son: ",multiplos_3);
+console.log("La suma total es: ",suma_total);
