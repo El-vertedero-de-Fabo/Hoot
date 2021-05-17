@@ -1,4 +1,9 @@
 # Hoop
+## Table of contents
+* [Capitulo 1 (Ejercicios)](#capitulo-1)
+* [Capitulo 2 (Ejercicios)](#capitulo-2)
+* [Setup](#setup)
+
 ## Capitulo 1 (Ejercicios)
 ### 1) Las galletitas de Ema
 ```javascript
