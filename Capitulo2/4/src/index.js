@@ -2,7 +2,7 @@ console.clear()
 var numero_1 = 0;
 var numero_2 = 1;
 var fibonacci = 0;
-var limite = 10;
+var limite = 8;
 console.log(numero_1);
 console.log(numero_2);
 for (var i = 0; i < limite; i++){
