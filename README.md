@@ -1,11 +1,11 @@
 # Hoop
 ## Table of contents
-* [Capitulo 1 (Ejercicios)](#capitulo-1)
-* [Capitulo 2 (Ejercicios)](#capitulo-2)
+* [Chapter1 (exercise)](#chapter-1)
+* [Chapter2 (exercise)](#chapter-2)
 * [Setup](#setup)
 
-## Capitulo 1 (Ejercicios)
-### 1) Las galletitas de Ema
+## Chapter 1 (exercise)
+### 1) Ema cookies
 ```javascript
 console.clear()
 var huevos = 3;
@@ -16,7 +16,7 @@ if ((huevos == 3) && ( chocolate == 1) && (harina == 0.5) && (azucar_cucharadas 
     console.count('Tenes todos los ingredientes! ');
 }
 ```
-### 2) La tienda de ropa
+### 2) The clothing store 
 ```javascript
 var numero_ranom = function (min, max) {
     return Math.floor(Math.random() * (max - min + 1 ) + min);
@@ -37,7 +37,7 @@ if (precio_final>4000) {
     console.log("Precio excedido");
 }
 ```
-### 3) Dia de paga
+### 3) Payday
 ```javascript
 var numero_ranom = function (pow) {
 	return Math.floor(Math.random() * pow);
@@ -69,8 +69,8 @@ console.log("Repartir a Sueldos:",Repartir_Sueldos);
 console.log("Sueldo_Repartidos:",Sueldo_Repartidos);
 console.log("Ganancias_Finales:", gananciasFinales);
 ```
-## Capitulo 2 (Ejercicios)
-### 1) Pares
+## Chapter (exercise)
+### 1) Pair numbers
 ```javascript
 console.clear()
 var limite = 10;
@@ -82,7 +82,7 @@ for (var i = 0; i < limite; i++){
     }
 }
 ```
-### 2) Contador
+### 2) Count
 ```javascript
 console.clear()
 var limite = 10;
@@ -102,7 +102,7 @@ for (var i = 0; i < limite; i++){
 console.log("La cantidad de numeros impares es: ",cant_impares);
 console.log("La cantidad de numeros menores que limite/2 es: ", cant_menores);
 ```
-### 3) Contador 2: La venganza del contador
+### 3) Count 2: The revenge of the Count
 ```javascript
 console.clear()
 var limite = 10;
@@ -124,7 +124,7 @@ while((inicio < limite) && (num_pares<final)){
 console.log("La cantidad de multiplos de 3 son: ",multiplos_3);
 console.log("La suma total es: ",suma_total);
 ```
-### 4) La secuencia de Fibonacci
+### 4) The sequence of Fibonacci
 ```javascript
 console.clear()
 var numero_1 = 0;
