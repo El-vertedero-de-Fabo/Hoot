@@ -1,7 +1,12 @@
 console.clear()
-var uno = "Hola";
-function imprimir(){
-    var dos = "Hola bobo";
-    console.log(dos);
+function Es_Par(numero){
+    if ((numero % 2)==0){
+        return true;
+    }
+    else{
+        return false;
+    }
+    
 }
-imprimir();
+var numero = 10;
+console.log(Es_Par(numero));
