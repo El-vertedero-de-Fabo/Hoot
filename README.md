@@ -140,3 +140,9 @@ for (var i = 0; i < limite; i++){
     console.log(fibonacci);
 }
 ```
+```javascript
+```
+```javascript
+```
+```javascript
+```
