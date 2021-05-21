@@ -1,35 +1,35 @@
-function Ordenar(){
-    if ((numero1<numero2)&&(numero1<numero3)){
-        console.log(numero1);
-        if (numero2<numero3){
-            console.log(numero2);
-            console.log(numero3);
+function Ordenar(num1,num2,num3){
+    if ((num1<num2)&&(num1<num3)){
+        console.log(num1);
+        if (num2<num3){
+            console.log(num2);
+            console.log(num3);
         }
         else{
-            console.log(numero3);
-            console.log(numero2);
+            console.log(num3);
+            console.log(num2);
         }
     }
-    else if ((numero2<numero1)&&(numero2<numero3)){
-        console.log(numero2);
-        if (numero1<numero3){
-            console.log(numero1);
-            console.log(numero3);
+    else if ((num2<num1)&&(num2<num3)){
+        console.log(num2);
+        if (num1<num3){
+            console.log(num1);
+            console.log(num3);
         }
         else{
-            console.log(numero3);
-            console.log(numero1);
+            console.log(num3);
+            console.log(num1);
         }
     }
-    else if ((numero3<numero2)&&(numero3<numero1)){
-        console.log(numero3);
-        if (numero1<numero2){
-            console.log(numero1);
-            console.log(numero2);
+    else if ((num3<num2)&&(num3<num1)){
+        console.log(num3);
+        if (num1<num2){
+            console.log(num1);
+            console.log(num2);
         }
         else{
-            console.log(numero2);
-            console.log(numero1);
+            console.log(num2);
+            console.log(num1);
         }
     }
     
@@ -40,6 +40,6 @@ var numero_random = function (pow) {
 var numero1 = numero_random (100);
 var numero2 = numero_random (100);
 var numero3 = numero_random (100);
-console.log(numero1,numero2,numero3);
+console.log("1:",numero1," 2:",numero2," 3:",numero3);
 
-Ordenar();
+Ordenar(numero1,numero2,numero3);
