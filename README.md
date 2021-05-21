@@ -141,8 +141,74 @@ for (var i = 0; i < limite; i++){
 }
 ```
 ```javascript
+console.clear()
+function Es_Par(numero){
+    if ((numero % 2)==0){
+        return true;
+    }
+    else{
+        return false;
+    }
+    
+}
+var numero = 10;
+console.log(Es_Par(numero));
 ```
 ```javascript
+function Invertir_Frase(Cant_letras){
+    let frase = "";
+    for (let i = Cant_letras.length - 1; i >=0; i--){
+        frase += Cant_letras[i];
+    }
+    return frase;
+}
+console.log(Invertir_Frase("Hola buenos dias"));//said soneub aloH
 ```
 ```javascript
+function Ordenar(num1,num2,num3){
+    if ((num1<num2)&&(num1<num3)){
+        console.log(num1);
+        if (num2<num3){
+            console.log(num2);
+            console.log(num3);
+        }
+        else{
+            console.log(num3);
+            console.log(num2);
+        }
+    }
+    else if ((num2<num1)&&(num2<num3)){
+        console.log(num2);
+        if (num1<num3){
+            console.log(num1);
+            console.log(num3);
+        }
+        else{
+            console.log(num3);
+            console.log(num1);
+        }
+    }
+    else if ((num3<num2)&&(num3<num1)){
+        console.log(num3);
+        if (num1<num2){
+            console.log(num1);
+            console.log(num2);
+        }
+        else{
+            console.log(num2);
+            console.log(num1);
+        }
+    }
+    
+}
+var numero_random = function (pow) {
+	return Math.floor(Math.random() * pow);
+};
+var numero1 = numero_random (100);
+var numero2 = numero_random (100);
+var numero3 = numero_random (100);
+console.log("1:",numero1," 2:",numero2," 3:",numero3);
+
+Ordenar(numero1,numero2,numero3);
+
 ```
