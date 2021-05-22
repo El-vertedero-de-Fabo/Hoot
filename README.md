@@ -69,7 +69,7 @@ console.log("Repartir a Sueldos:",Repartir_Sueldos);
 console.log("Sueldo_Repartidos:",Sueldo_Repartidos);
 console.log("Ganancias_Finales:", gananciasFinales);
 ```
-## Chapter (exercise)
+## Chapter 2 (exercise)
 ### 1) Pair numbers
 ```javascript
 console.clear()
@@ -140,6 +140,8 @@ for (var i = 0; i < limite; i++){
     console.log(fibonacci);
 }
 ```
+## Chapter 3 (exercise)
+### 1)
 ```javascript
 console.clear()
 function Es_Par(numero){
@@ -154,6 +156,7 @@ function Es_Par(numero){
 var numero = 10;
 console.log(Es_Par(numero));
 ```
+### 2)
 ```javascript
 function Invertir_Frase(Cant_letras){
     let frase = "";
@@ -164,6 +167,7 @@ function Invertir_Frase(Cant_letras){
 }
 console.log(Invertir_Frase("Hola buenos dias"));//said soneub aloH
 ```
+### 3)
 ```javascript
 function Ordenar(num1,num2,num3){
     if ((num1<num2)&&(num1<num3)){
